@@ -1,0 +1,29 @@
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 68px;
+    padding-right: 60px;
+}
+
+.header-nav {
+    margin-top: 6px;
+    list-style-type: none;
+    gap: 32px;
+    margin-left: 77px;
+}
+
+.header-nav-item {
+    padding-bottom: 16px;
+}
+
+.header-nav-item a,
+.header-location,
+.header-contact {
+    font-size: 16px;
+    color: #181A20;
+}
+
+.header-info {
+    gap: 29px;
+    margin-top: 6px;
+}
