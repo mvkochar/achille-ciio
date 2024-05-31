@@ -75,7 +75,12 @@
 .home-latest-num,
 .home-latest-about,
 .home-looking-num,
-.home-looking-above {
+.home-looking-above,
+.home-community-num,
+.home-community-above,
+.home-community-about,
+.home-connect-num,
+.home-connect-above {
     font-weight: 500;
     font-size: 16px;
     color: #181A20;
@@ -83,7 +88,9 @@
 
 .home-about-above,
 .home-latest-above,
-.home-looking-above {
+.home-looking-above,
+.home-community-above,
+.home-connect-above {
     margin-left: 40px;
 }
 
@@ -132,12 +139,13 @@
 }
 
 .home-looking {
+    margin-top: 100px;
     padding: 100px 80px;
     background-color: #DFD8BF;
 }
 
 .home-looking-caption {
-    margin-top: 80px;   
+    margin-top: 80px;
 }
 
 .home-looking-title {
@@ -155,7 +163,7 @@
 
 .home-looking-box {
     margin-top: 80px;
-} 
+}
 
 .home-looking-item .looking-item-info {
     margin-top: 32px;
@@ -171,4 +179,85 @@
     margin-top: 4px;
     font-size: 12px;
     color: #7D7D7D;
+}
+
+.home-community {
+    margin: 100px 80px;
+}
+
+.home-community-box {
+    margin-top: 80px;
+}
+
+.home-community-desc {
+    max-width: 416px;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #262626;
+}
+
+.home-connect  {
+    margin-top: 100px;
+    padding: 100px 80px;
+    background-color: #F4F1E7;
+}
+
+.home-connect-title {
+    width: 305px;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #181A20;
+}
+
+.home-connect-contacts {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+.home-connect-address {
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #181A20;
+}
+
+.home-connect-fm {
+    gap: 30px;
+}
+
+.home-connect-fm input, .home-connect-fm select {
+    display: block;
+    width: 231px;
+    margin-top: 60px;
+    padding-bottom: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #7D7D7D;
+    font-size: 16px;
+    color: #7D7D7D;
+}
+
+.home-connect-fm input::placeholder {
+    color: #7D7D7D;
+}
+
+.home-connect-fm label {
+    display: block;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #181A20;
+}
+
+.home-connect-fm button {
+    display: block;
+    margin-top: 76px;
+    margin-left: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }

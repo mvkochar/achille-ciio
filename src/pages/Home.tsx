@@ -100,6 +100,75 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='home-community'>
+        <div className="d-f jc-sb">
+          <div className="d-f">
+            <div className="home-community-num">(04)</div>
+            <div className="home-community-above">We build community.</div>
+          </div>
+          <div className="home-community-about">Wherever we build, <br /> we make it better.</div>
+          <div className="about-link-wr d-f">
+            <div className="about-link-title">About us</div>
+            <a href="" className="about-link"><img src="/images/arrow-right.png" alt="arrow-right" /></a>
+          </div>
+        </div>
+        <div className="home-community-box d-f jc-sb align-center">
+          <div><img src="/images/community.png" alt="community" /></div>
+          <p className="home-community-desc">
+            Our aim is to build micro-communities that enrich and fortify local areas,
+            turning every space into an opportunity through well-planned land use and design,
+            fostering exploration and growth with a positive impact on existing communities.
+          </p>
+        </div>
+      </section>
+      <section className="home-connect d-f jc-sb">
+        <div>
+          <div className="d-f">
+            <div className="home-connect-num">(05)</div>
+            <div className="home-connect-above">Did we catch your eye?</div>
+          </div>
+          <h2 className="home-connect-title">
+            We enjoy connecting with new people. Reach out to us by filling out
+            the form, sending an email, or simply giving us a call.
+          </h2>
+          <div className="home-connect-contacts">Phone / Email</div>
+          <div className="home-connect-address">
+            0 00 000 000 .CITY <br />
+            achille@ciio.com
+          </div>
+        </div>
+        <form action="" className='home-connect-fm d-f'>
+          <div>
+            <input type="text" name='connectFname' id='connectFname' placeholder='First name' />
+            <label htmlFor="connectFname">Hello, my first name is</label>
+            <input type="email" name='connectEmail' id='connectEmail' placeholder='example@gamil.com' />
+            <label htmlFor="connectEmail">Contact me at</label>
+            <select name="connectCommunity" id="connectCommunity">
+              <option value="0">Please Select</option>
+            </select>
+            <label htmlFor="connectCommunity">Community of interest</label>
+            <select name="client" id="client">
+              <option value="0">Please Select</option>
+            </select>
+            <label htmlFor="client">Are you working with an agent?</label>
+          </div>
+          <div>
+            <input type="text" name='connectLname' id='connectLname' placeholder='Last name' />
+            <label htmlFor="connectLname">Hello, my last name is</label>
+            <select name="connectLike" id="connectLike">
+              <option value="0">Please Select</option>
+            </select>
+            <label htmlFor="connectLike">I’d like to</label>
+            <input type="tel" name="" id="connectPhone" placeholder='0 00 000 000' />
+            <label htmlFor="connectPhone">Phone</label>
+            <select name="agent" id="agent">
+              <option value="0">Please Select</option>
+            </select>
+            <label htmlFor="agent">Are you an agent?</label>
+            <button type="button"><img src="/images/arrow-right.png" alt="arrow-right" /></button>
+          </div>
+        </form>
+      </section>
     </>
   )
 }

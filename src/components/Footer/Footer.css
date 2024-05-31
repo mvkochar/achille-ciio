@@ -1,0 +1,56 @@
+.footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 135px;
+    background-color: #262A34;
+}
+
+.footer-bar {
+    margin-top: 80px;
+    gap: 106px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list-item {
+    margin-bottom: 24px;
+}
+
+.footer-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-list-item a {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer-bl-title {
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer-bl-address {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.footer-info {
+    margin-top: 80px;
+}
+
+.footer-sale {
+    font-size: 16px;
+    color: #999999;
+}
+
+.footer-rights {
+    margin-top: 48px;
+    gap: 196px;
+    font-size: 14px;
+    color: #7D7D7D;
+}
