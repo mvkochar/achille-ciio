@@ -1,3 +1,5 @@
 import Home from "./Home";
+import Communities from "./Communities";
+import QuickMove from "./QuickMove";
 
-export {Home}
+export {Home, Communities, QuickMove}

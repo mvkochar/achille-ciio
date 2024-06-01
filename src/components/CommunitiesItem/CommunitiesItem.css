@@ -1,0 +1,33 @@
+.communities-item-main {
+    width: 268px;
+    height: 240px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.communities-item-sale {
+    width: 132px;
+    padding: 4px 24px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #181A20;
+}
+
+.communities-item-info {
+    margin-top: 20px;
+    gap: 16px;
+}
+
+.communities-item-info .info-bl-title {
+    font-size: 16px;
+    color: #262626;
+}
+
+.communities-item-info .info-bl-desc {
+  
+    margin-top: 6px;
+    font-size: 12px;
+    color: #7D7D7D;
+}

@@ -1,15 +1,23 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Home } from '../../pages'
+import { Communities, Home, QuickMove } from '../../pages'
 
 const Main = () => {
   return (
-   <Routes>
-    <Route
+    <Routes>
+      <Route
         path='/'
-        element={<Home/>}
-    />
-   </Routes>
+        element={<Home />}
+      />
+      <Route
+        path='communities'
+        element={<Communities />}
+      />
+      <Route
+        path='quick-move'
+        element={<QuickMove/>}
+      />
+    </Routes>
   )
 }
 

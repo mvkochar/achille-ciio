@@ -1,15 +1,15 @@
 .header {
     padding-top: 39px;
     padding-bottom: 39px;
-    padding-left: 68px;
-    padding-right: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .header-nav {
     margin-top: 6px;
     list-style-type: none;
-    gap: 32px;
-    margin-left: 77px;
+    gap: 28px;
+    margin-left: 24px;
 }
 
 .header-nav-item {
@@ -19,7 +19,7 @@
 .header-nav-item a,
 .header-location,
 .header-contact {
-    font-size: 16px;
+    font-size: 14px;
     color: #181A20;
 }
 

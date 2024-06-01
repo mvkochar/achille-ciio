@@ -1,16 +1,17 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
         <header className='header d-f jc-sb'>
             <div className='d-f'>
-                <div><img src="/images/logo.svg" alt="Logo" /></div>
+                <div> <Link to='/'><img src="/images/logo.svg" alt="Logo" /></Link></div>
                 <nav>
                     <ul className="header-nav d-f">
                         <li className="header-nav-item"><a href="">Search</a></li>
-                        <li className="header-nav-item"><a href="">Communities</a></li>
-                        <li className="header-nav-item"><a href="">Quick Move-ins</a></li>
+                        <li className="header-nav-item"><Link to="/communities">Communities</Link></li>
+                        <li className="header-nav-item"><Link to="/quick-move">Quick Move-ins</Link></li>
                         <li className="header-nav-item"><a href="">Open Houses</a></li>
                         <li className="header-nav-item"><a href="">About</a></li>
                     </ul>
