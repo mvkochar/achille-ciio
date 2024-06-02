@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Communities, Home, QuickMove } from '../../pages'
+import { Communities, Home, OpenHouses, QuickMove } from '../../pages'
 
 const Main = () => {
   return (
@@ -16,6 +16,10 @@ const Main = () => {
       <Route
         path='quick-move'
         element={<QuickMove/>}
+      />
+      <Route
+        path='open-houses'
+        element={<OpenHouses/>}
       />
     </Routes>
   )

@@ -1,0 +1,70 @@
+.houses-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 97px;
+    background: url('/public/images/houses-main-bg.png') no-repeat;
+    color: #FFFFFF;
+}
+
+.houses-main-title {
+    font-size: 96px;
+    line-height: 1.1;
+}
+
+.houses-main-desc {
+    max-width: 760px;
+    margin-top: 32px;
+    font-size: 32px;
+}
+
+.houses-content {
+    margin-top: 80px;
+    margin-right: 89px;
+    margin-left: 80px;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.houses-content-item {
+    padding-bottom: 120px;
+    border-bottom: 2px solid #999999;
+}
+
+.houses-content-item .content-item-above {
+    gap: 24px;
+    font-size: 16px;
+    color: #181A20;
+}
+
+.houses-content-item .content-item-caption {
+    margin-top: 48px;
+    color: #0F0F0F;
+}
+
+.houses-content-item .content-item-num {
+    font-size: 64px;
+}
+
+.houses-content-item .content-item-title {
+    margin-top: 4px;
+    margin-left: 34px;
+    font-size: 50px;
+}
+
+.houses-content-item .content-item-subtitle {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 32px;
+}
+
+.houses-content-item .content-item-about {
+    margin-top: 48px;
+    font-size: 14px;
+    color: #0F0F0F;
+}
+
+.houses-content-item {
+    padding-bottom: 0;
+    border-bottom: none;
+}
