@@ -35,3 +35,103 @@
     font-size: 12px;
     color: #7D7D7D;
 }
+
+.quick-content {
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 81px;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
+
+.quick-card {
+    width: 268px;
+}
+
+.quick-card-main {
+    width: 100%;
+    height: 296px;
+    padding-top: 224px;
+    padding-left: 24px;
+}
+
+.quick-card-search {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.quick-card:nth-child(1) .quick-card-main,
+.quick-card:nth-child(4) .quick-card-main,
+.quick-card:nth-child(7) .quick-card-main {
+    background: url('/public/images/quck-movie/1.png');
+}
+
+.quick-card:nth-child(2) .quick-card-main,
+.quick-card:nth-child(5) .quick-card-main,
+.quick-card:nth-child(8) .quick-card-main {
+    background: url('/public/images/quck-movie/2.png');
+}
+
+.quick-card:nth-child(3) .quick-card-main,
+.quick-card:nth-child(6) .quick-card-main,
+.quick-card:nth-child(9) .quick-card-main {
+    background: url('/public/images/quck-movie/3.png');
+}
+
+.quck-card-details {
+    margin-top: 40px;
+}
+
+.quick-card-caption {
+    margin-right: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #999999;
+    color: #181A20;
+}
+
+.quick-card-caption .caption-one {
+    font-size: 20px;
+
+}
+
+.quick-card-caption .caption-two {
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.quick-card-caption .caption-three {
+    font-size: 16px;
+}
+
+.quick-card-item {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #999999;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.quick-card-connect {
+    gap: 8px;
+}
+
+.quick-card-email {
+    display: block;
+    font-size: 14px;
+    color: #262A34;
+}
+
+.quick-card-call {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #262A34;
+}
+
+.quick-card-item:last-child {
+    margin-bottom: 0;
+}

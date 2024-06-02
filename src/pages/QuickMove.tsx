@@ -1,5 +1,8 @@
 import React from 'react'
 import './css/QuickMove.css'
+import QuickContent from '../components/QuickContent/QuickContent'
+import Connect from '../components/Connect/Connect'
+
 
 const QuickMove = () => {
     return (
@@ -8,7 +11,7 @@ const QuickMove = () => {
                 <div>
                     <h1 className="quick-main-title">Al is eager and ready <br /> to move in.</h1>
                     <p className="quick-main-desc">
-                        Enjoy the benefits of new construction without the delay by exploring our 
+                        Enjoy the benefits of new construction without the delay by exploring our
                         available quick move-in homes below.
                     </p>
                 </div>
@@ -19,6 +22,8 @@ const QuickMove = () => {
                     <label htmlFor="sort">Sort by</label>
                 </form>
             </main>
+            <QuickContent/>
+            <Connect/>
         </>
     )
 }
