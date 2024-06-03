@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Communities, Home, OpenHouses, QuickMove } from '../../pages'
+import { About, Communities, Home, OpenHouses, QuickMove } from '../../pages'
 
 const Main = () => {
   return (
@@ -15,11 +15,15 @@ const Main = () => {
       />
       <Route
         path='quick-move'
-        element={<QuickMove/>}
+        element={<QuickMove />}
       />
       <Route
         path='open-houses'
-        element={<OpenHouses/>}
+        element={<OpenHouses />}
+      />
+      <Route
+        path='about'
+        element={<About />}
       />
     </Routes>
   )
