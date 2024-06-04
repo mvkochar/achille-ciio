@@ -75,3 +75,78 @@
 .about-advantages-item:nth-child(4) {
     width: 158px;
 }
+
+.about-team {
+    margin-top: 100px;
+    padding: 100px 80px;
+    background-color: #262A34;
+    color: #FFFFFF;
+}
+
+.about-team-title {
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.about-team-desc {
+    width: 752px;
+    margin-top: 60px;
+    margin-left: 90px;
+    font-size: 50px;
+}
+
+.about-team-box {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.about-community {
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #181A20;
+}
+
+.about-community-title {
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.about-community-info {
+    margin-top: 80px;
+    margin-left: 335px;
+}
+
+.about-community-desc {
+    margin-top: 32px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.about-community-more {
+    display: block;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181A20;
+}
+
+.about-community-download {
+    margin-top: 60px;
+    margin-left: 351px;
+    gap: 18px;
+}
+
+.about-community-download .download-title {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+
+.about-community-download .download-link {
+    margin-top: 2px;
+}

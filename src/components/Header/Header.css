@@ -27,3 +27,19 @@
     gap: 29px;
     margin-top: 6px;
 }
+
+.about-team-founder {
+    margin-top: 100px;
+    margin-left: 447px;
+}
+
+.team-member-name {
+    margin-top: 24px;
+    font-size: 32px;
+}
+
+.team-member-pos {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #F0F0F0;
+}
