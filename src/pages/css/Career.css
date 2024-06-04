@@ -1,0 +1,55 @@
+.career-main {
+    padding-top: 86px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 138px;
+    background-color: #F4F1E7;
+}
+
+.career-main-title {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1.06;
+    color: #181A20;
+}
+
+.career-main-subtitle {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #7D7D7D;
+}
+
+.career-content {
+    padding: 80px;
+    background-color: #B09B64;
+    color: #FFFFFF;
+}
+
+.career-content-num,
+.career-content-above,
+.career-action-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.career-content-above {
+    margin-left: 40px;
+}
+
+.career-action {
+    gap: 26px;
+}
+
+.career-action a {
+    display: block;
+    margin-top: 2px;
+}
+
+.career-content-title {
+    max-width: 864px;
+    margin-top: 120px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+}

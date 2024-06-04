@@ -1,20 +1,21 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div><img src="/images/footer-logo.svg" alt="footer-logo" /> </div>
+      <div><Link to='/'><img src="/images/footer-logo.svg" alt="footer-logo" /></Link></div>
       <div className="footer-bar d-f">
         <ul className='footer-list'>
           <li className="footer-list-item"><a href="">Search</a></li>
-          <li className="footer-list-item"><a href="">Communities</a></li>
-          <li className="footer-list-item"><a href="">Quick Move-ins</a></li>
-          <li className="footer-list-item"><a href="">Open Houses</a></li>
+          <li className="footer-list-item"><Link to="/communities">Communities</Link></li>
+          <li className="footer-list-item"><Link to="/quick-move">Quick Move-ins</Link></li>
+          <li className="footer-list-item"><Link to="/open-houses">Open Houses</Link></li>
         </ul>
         <ul className='footer-list'>
-          <li className="footer-list-item"><a href="">About</a></li>
-          <li className="footer-list-item"><a href="">Careers</a></li>
+          <li className="footer-list-item"><Link to="/about">About</Link></li>
+          <li className="footer-list-item"><Link to="/career">Careers</Link></li>
           <li className="footer-list-item"><a href="">Blog</a></li>
           <li className="footer-list-item"><a href="">Contact</a></li>
         </ul>
