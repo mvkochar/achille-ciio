@@ -122,7 +122,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <Connect/>  
+      <Connect sectionNum='05'/>  
     </>
   )
 }

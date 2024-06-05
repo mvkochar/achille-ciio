@@ -1,11 +1,15 @@
 import React from 'react'
 
-const Connect = () => {
+type ConnectProps = {
+    sectionNum: string
+}
+
+const Connect = ({sectionNum}:ConnectProps) => {
     return (
-        <section className="home-connect d-f jc-sb">
+        <div className="home-connect d-f jc-sb">
             <div>
                 <div className="d-f">
-                    <div className="home-connect-num">(05)</div>
+                    <div className="home-connect-num">({sectionNum})</div>
                     <div className="home-connect-above">Did we catch your eye?</div>
                 </div>
                 <h2 className="home-connect-title">
@@ -49,7 +53,7 @@ const Connect = () => {
                     <button type="button"><img src="/images/arrow-right.png" alt="arrow-right" /></button>
                 </div>
             </form>
-        </section>
+        </div>
     )
 }
 

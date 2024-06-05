@@ -144,7 +144,7 @@ const OpenHouses = () => {
                     <div><img src="/images/open-houses/5.png" alt="open-houses5" /></div>
                 </div>
             </div>
-            <Connect/>
+            <Connect sectionNum='01'/>
         </>
     )
 }

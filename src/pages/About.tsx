@@ -176,7 +176,7 @@ const About = () => {
                         <a href="" className="download-link"><img src="/images/arrow-right.png" alt="arrow-right" /></a>
                     </div>
             </section>
-            <Connect/>
+            <Connect sectionNum='06'/>
         </>
     )
 }

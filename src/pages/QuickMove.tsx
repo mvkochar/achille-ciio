@@ -23,7 +23,7 @@ const QuickMove = () => {
                 </form>
             </main>
             <QuickContent/>
-            <Connect/>
+            <Connect sectionNum='04'/>
         </>
     )
 }

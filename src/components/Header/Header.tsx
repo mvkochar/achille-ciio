@@ -9,7 +9,6 @@ const Header = () => {
                 <div> <Link to='/'><img src="/images/logo.svg" alt="Logo" /></Link></div>
                 <nav>
                     <ul className="header-nav d-f">
-                        <li className="header-nav-item"><a href="">Search</a></li>
                         <li className="header-nav-item"><Link to="/communities">Communities</Link></li>
                         <li className="header-nav-item"><Link to="/quick-move">Quick Move-ins</Link></li>
                         <li className="header-nav-item"><Link to="/open-houses">Open Houses</Link></li>
@@ -19,7 +18,7 @@ const Header = () => {
             </div>
             <div className="header-info d-f">
                 <div className="header-location">0 00 000 000 .CITY</div>
-                <a href="" className="header-contact">Contact</a>
+                <Link to="/contact" className="header-contact">Contact</Link>
             </div>
         </header>
     )

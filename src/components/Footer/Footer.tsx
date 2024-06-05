@@ -8,7 +8,6 @@ const Footer = () => {
       <div><Link to='/'><img src="/images/footer-logo.svg" alt="footer-logo" /></Link></div>
       <div className="footer-bar d-f">
         <ul className='footer-list'>
-          <li className="footer-list-item"><a href="">Search</a></li>
           <li className="footer-list-item"><Link to="/communities">Communities</Link></li>
           <li className="footer-list-item"><Link to="/quick-move">Quick Move-ins</Link></li>
           <li className="footer-list-item"><Link to="/open-houses">Open Houses</Link></li>
@@ -16,8 +15,8 @@ const Footer = () => {
         <ul className='footer-list'>
           <li className="footer-list-item"><Link to="/about">About</Link></li>
           <li className="footer-list-item"><Link to="/career">Careers</Link></li>
-          <li className="footer-list-item"><a href="">Blog</a></li>
-          <li className="footer-list-item"><a href="">Contact</a></li>
+          <li className="footer-list-item"><Link to="/blog">Blog</Link></li>
+          <li className="footer-list-item"><Link to="/contact">Contact</Link></li>
         </ul>
         <div>
           <div className="footer-bl-title">Follow us</div>
